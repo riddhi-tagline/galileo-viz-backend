@@ -1,0 +1,12 @@
+{
+  "name": "mock_json_server",
+  "version": "1.0.0",
+  "description": "Run json-server --watch db.json. Go to localhost:3000 on your browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
