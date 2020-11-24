@@ -4,17 +4,17 @@
     {
 			"id": 1,
 			"name": "Hive",
-			"logo": "./images/hive.png"
+			"logo": "https://galileo-viz.herokuapp.com/hive.png"
 		},
 		{
 			"id": 2,
 			"name": "Snowflake",
-			"logo": "./images/snowflake.png"
+			"logo": "https://galileo-viz.herokuapp.com/snowflake.png"
 		},
 		{
 			"id": 3,
 			"name": "Kafka",
-			"logo": "./images/kafka.png"
+			"logo": "https://galileo-viz.herokuapp.com/kafka.png"
 		}
 	],
 
@@ -29,7 +29,7 @@
 				"change": 0.08,
 				"direction": "down",
 				"created": "2020-10-22",
-				"owner_image": "./images/user_1.png",
+				"owner_image": "https://galileo-viz.herokuapp.com/user_1.png",
 				"daily_healthscore":
         			{
 	      					"2020-01-01": 95,
@@ -65,7 +65,7 @@
         "change": 0.02,
         "direction": "up",
         "created": "2020-10-20",
-        "owner_image": "./images/user_1.png",
+        "owner_image": "https://galileo-viz.herokuapp.com/user_1.png",
         "daily_healthscore":
               {
                 "2020-01-01": 95,
@@ -101,7 +101,7 @@
           "change": 0.12,
           "direction": "up",
           "created": "2020-10-1",
-          "owner_image": "./images/user_2.png",
+          "owner_image": "https://galileo-viz.herokuapp.com/user_2.png",
           "daily_healthscore":
 			          {
 			            "2020-01-01": 95,
@@ -170,7 +170,7 @@
               "availability_latest": "-",
       				"feature_count": 22,
       				"model_count": 0,
-      				"owner_image": "./images/user_1.png",
+      				"owner_image": "https://galileo-viz.herokuapp.com/user_1.png",
       				"daily_healthscore":
 			              {
 			      					"2020-01-01": 95,
@@ -230,7 +230,7 @@
               "availability_latest": "-",
               "feature_count": 25,
               "model_count": 0,
-              "owner_image": "./images/user_1.png",
+              "owner_image": "https://galileo-viz.herokuapp.com/user_1.png",
               "daily_healthscore":
               {
                 "2020-01-01": 95,
@@ -290,7 +290,7 @@
               "availability_latest": "Today",
               "feature_count": 27,
               "model_count": 1,
-              "owner_image": "./images/user_2.png",
+              "owner_image": "https://galileo-viz.herokuapp.com/user_2.png",
               "daily_healthscore":
 			              {
 			                "2020-01-01": 95,
@@ -350,7 +350,7 @@
               "availability_latest": "Today",
               "feature_count": 23,
               "model_count": 8,
-              "owner_image": "./images/user_3.png",
+              "owner_image": "https://galileo-viz.herokuapp.com/user_3.png",
               "daily_healthscore":
 			              {
 			                "2020-01-01": 95,
@@ -410,7 +410,7 @@
               "availability_latest": "Today",
               "feature_count": 36,
               "model_count": 6,
-              "owner_image": "./images/user_4.png",
+              "owner_image": "https://galileo-viz.herokuapp.com/user_4.png",
 			              "daily_healthscore":
 			              {
 			                "2020-01-01": 95,
@@ -470,7 +470,7 @@
 							"availability_latest": "2020-10-16",
 							"feature_count": 82,
 							"model_count": 17,
-							"owner_image": "./images/user_3.png",
+							"owner_image": "https://galileo-viz.herokuapp.com/user_3.png",
 							"daily_healthscore":
 											{
 												"2020-01-01": 95,
@@ -530,7 +530,7 @@
 							"availability_latest": "2020-10-16",
 							"feature_count": 45,
 							"model_count": 14,
-							"owner_image": "./images/user_2.png",
+							"owner_image": "https://galileo-viz.herokuapp.com/user_2.png",
 							"daily_healthscore":
 										{
 											"2020-01-01": 95,
@@ -590,7 +590,7 @@
 							"availability_latest": "2020-10-14",
 							"feature_count": 14,
 							"model_count": 2,
-							"owner_image": "./images/user_2.png",
+							"owner_image": "https://galileo-viz.herokuapp.com/user_2.png",
 							"daily_healthscore":
 										{
 											"2020-01-01": 95,
