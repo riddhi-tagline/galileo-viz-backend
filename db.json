@@ -653,19 +653,19 @@
 								"features":
 											[
 												{"name":"item_sold_count_last_2_days",
-													"impact_score": "0.25"
+													"impact_score": 0.25
 												},
 												{"name":"item_discount_avg",
-													"impact_score": "0.25"
+													"impact_score": 0.50
 												},
 												{"name":"user_txns_count_5_mins_ago",
-													"impact_score": "0.25"
+													"impact_score": 0.65
 												},
 												{"name":"user_ltv_sum",
-													"impact_score": "0.25"
+													"impact_score": 0.85
 												},
 												{"name":"user_num_friends_1_day_ago",
-													"impact_score": "0.25"
+													"impact_score": 0.75
 												}
 											]
 							},
@@ -706,24 +706,28 @@
 											"2020-01-20": 99
 										},
 								"feature group":8,
-						 		"features":
-										[
-											{"name":"item_sold_count_last_2_days",
-												"impact_score": "0.25"
-											},
-											{"name":"item_discount_avg",
-												"impact_score": "0.25"
-											},
-											{"name":"user_txns_count_5_mins_ago",
-												"impact_score": "0.25"
-											},
-											{"name":"user_ltv_sum",
-												"impact_score": "0.25"
-											},
-											{"name":"user_num_friends_1_day_ago",
-												"impact_score": "0.25"
-											}
-										]
+						 		"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
 						},
 
 					{
@@ -765,26 +769,29 @@
 								"consistency": "62%",
 								"completeness": "90%",
 								"feature group": 10,
-								"features":
-												[
-													{"name":"item_sold_count_last_2_days",
-														"impact_score": 0.25
-													},
-													{"name":"item_discount_avg",
-														"impact_score": 0.25
-													},
-													{"name":"user_txns_count_5_mins_ago",
-														"impact_score": 0.25
-													},
-													{"name":"user_ltv_sum",
-														"impact_score": 0.25
-													},
-													{"name":"user_num_friends_1_day_ago",
-														"impact_score": 0.25
-													}
-												]
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
 								},
-
 						{
 								"id": 4,
 								"name": "user_ltv_predict",
@@ -824,26 +831,29 @@
 								"consistency": "88%",
 								"completeness": "97%",
 								"feature group": 14,
-								"features":
-											[
-												{"name":"item_sold_count_last_2_days",
-													"impact_score": "0.25"
-												},
-												{"name":"item_discount_avg",
-													"impact_score": "0.25"
-												},
-												{"name":"user_txns_count_5_mins_ago",
-													"impact_score": "0.25"
-												},
-												{"name":"user_ltv_sum",
-													"impact_score": "0.25"
-												},
-												{"name":"user_num_friends_1_day_ago",
-													"impact_score": "0.25"
-												}
-											]
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
 							},
-
 						{
 								"id": 5,
 								"name": "user_txn_likelihood",
@@ -883,26 +893,29 @@
 								"consistency": "99%",
 								"completeness": "99%",
 								"feature group": 12,
-								"features":
-											[
-												{"name":"item_sold_count_last_2_days",
-													"impact_score": "0.25"
-												},
-												{"name":"item_discount_avg",
-													"impact_score": "0.25"
-												},
-												{"name":"user_txns_count_5_mins_ago",
-													"impact_score": "0.25"
-												},
-												{"name":"user_ltv_sum",
-													"impact_score": "0.25"
-												},
-												{"name":"user_num_friends_1_day_ago",
-													"impact_score": "0.25"
-												}
-											]
-								},
-
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
+						},
 						{
 								"id": 6,
 								"name": "purchase_likelihood",
@@ -942,26 +955,29 @@
 								"consistency": "98%",
 								"completeness": "97%",
 								"feature group": 8,
-								"features":
-											[
-												{"name":"item_sold_count_last_2_days",
-													"impact_score": "0.25"
-												},
-												{"name":"item_discount_avg",
-													"impact_score": "0.25"
-												},
-												{"name":"user_txns_count_5_mins_ago",
-													"impact_score": "0.25"
-												},
-												{"name":"user_ltv_sum",
-													"impact_score": "0.25"
-												},
-												{"name":"user_num_friends_1_day_ago",
-													"impact_score": "0.25"
-												}
-											]
-								},
-
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
+							},
 						{
 								"id": 7,
 								"name": "cost_savings_predict",
@@ -1001,26 +1017,29 @@
 								"consistency": "99%",
 								"completeness": "99%",
 								"feature group": 10,
-								"features":
-											[
-												{"name":"item_sold_count_last_2_days",
-													"impact_score": "0.25"
-												},
-												{"name":"item_discount_avg",
-													"impact_score": "0.25"
-												},
-												{"name":"user_txns_count_5_mins_ago",
-													"impact_score": "0.25"
-												},
-												{"name":"user_ltv_sum",
-													"impact_score": "0.25"
-												},
-												{"name":"user_num_friends_1_day_ago",
-													"impact_score": "0.25"
-												}
-											]
-								},
-
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
+							},
 						{
 								"id": 8,
 								"name": "user_txn_value_predict",
@@ -1060,26 +1079,29 @@
 								"consistency": "97%",
 								"completeness": "96%",
 								"feature group": 10,
-								"features":
-										[
-											{"name":"item_sold_count_last_2_days",
-												"impact_score": "0.25"
-											},
-											{"name":"item_discount_avg",
-												"impact_score": "0.25"
-											},
-											{"name":"user_txns_count_5_mins_ago",
-												"impact_score": "0.25"
-											},
-											{"name":"user_ltv_sum",
-												"impact_score": "0.25"
-											},
-											{"name":"user_num_friends_1_day_ago",
-												"impact_score": "0.25"
-											}
-										]
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
 							},
-
 							{
 								"id": 9,
 								"name": "merchant_profile",
@@ -1119,26 +1141,29 @@
 								"consistency": "94%",
 								"completeness": "96%",
 								"feature group": 10,
-								"features":
-										[
-											{"name":"item_sold_count_last_2_days",
-												"impact_score": "0.25"
-											},
-											{"name":"item_discount_avg",
-												"impact_score": "0.25"
-											},
-											{"name":"user_txns_count_5_mins_ago",
-												"impact_score": "0.25"
-											},
-											{"name":"user_ltv_sum",
-												"impact_score": "0.25"
-											},
-											{"name":"user_num_friends_1_day_ago",
-												"impact_score": "0.25"
-											}
-										]
+								"features": [
+									{
+										"name": "item_sold_count_last_2_days",
+										"impact_score": 0.25
+									},
+									{
+										"name": "item_discount_avg",
+										"impact_score": 0.50
+									},
+									{
+										"name": "user_txns_count_5_mins_ago",
+										"impact_score": 0.65
+									},
+									{
+										"name": "user_ltv_sum",
+										"impact_score": 0.85
+									},
+									{
+										"name": "user_num_friends_1_day_ago",
+										"impact_score": 0.75
+									}
+								]
 							},
-
 							{
 							 "id": "all",
 							 "name": "all model insights",
